@@ -1,6 +1,8 @@
 # Isaías Lucas · Portfólio
 
-Portfólio pessoal em React + Vite, com direção visual inspirada na CODIK DESIGN: fundo creme, tipografia editorial e detalhes lilás.
+Portfólio pessoal em React + Vite, com o tema escuro roxo inspirado no Gengar, cartão de terminal e animações. A CODIK DESIGN aparece como projeto principal.
+
+**[🚀 Abrir portfólio](https://isaias-portfolio.vercel.app)**
 
 ## Projetos
 
