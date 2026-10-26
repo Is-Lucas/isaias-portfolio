@@ -244,7 +244,7 @@ function About() {
 const groups = [
   [Code2, 'Desenvolvimento', ['HTML5', 'CSS3', 'JavaScript', 'React', 'Vite']],
   [Database, 'Banco de dados', ['SQL', 'Modelagem de dados']],
-  [Network, 'Infraestrutura', ['Redes', 'Cabeamento', 'Windows', 'Microsoft 365', 'Firewall']],
+  [Network, 'Infraestrutura', ['Redes', 'Cabeamento', 'Windows']],
   [Wrench, 'Outros', ['Suporte técnico', 'Troubleshooting', 'Git/GitHub', 'VS Code']],
 ];
 
@@ -284,13 +284,13 @@ function Skills() {
 
 const experiences = [
   {
-    period: '2024 – 2025',
+    period: 'nov/2024 – mai/2025',
     company: 'Crowe Macro Brazil',
     role: 'Auxiliar de Suporte Técnico em TI',
     description:
-      'Atuação com suporte técnico Nível 2, presencial e remoto, instalação e configuração de Windows e softwares corporativos, monitoramento básico de redes, atendimento de chamados e organização da documentação de TI.',
+      'Atuação com suporte técnico presencial e remoto, instalação e configuração de Windows e softwares corporativos, monitoramento básico de redes, atendimento de chamados e organização da documentação de TI.',
     tags: [
-      'Suporte N2',
+      'Suporte técnico',
       'Windows',
       'Help Desk',
       'Redes',
@@ -299,7 +299,7 @@ const experiences = [
     ],
   },
   {
-    period: '2023 – 2024',
+    period: 'ago/2023 – set/2024',
     company: 'Konecta Brazil Outsourcing Ltda.',
     role: 'Jovem Aprendiz Administrativo',
     description:
@@ -312,7 +312,7 @@ const experiences = [
     ],
   },
   {
-    period: '2022 – 2023',
+    period: 'jul/2022 – jan/2023',
     company: 'Discabos Comércio, Importação e Exportação de Acessórios Ltda.',
     role: 'Estagiário — Suporte Técnico',
     description:
@@ -381,7 +381,7 @@ const items = [
   [
     GraduationCap,
     'Desenvolvimento de Sistemas',
-    'Curso técnico · Senac · 2026–2027',
+    'Curso técnico · Senac · jun/2026–dez/2027 (conclusão prevista)',
   ],
   [
     Laptop,
@@ -441,7 +441,7 @@ const projects = [
 function Projects(){return <section id="projetos"><div className="wrap"><SectionTitle label="03 / PROJETOS">Algumas coisas que estou construindo.</SectionTitle>
 <Fade><article className="codik-feature"><a className="codik-visual" href="https://codik-design.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Visitar CODIK DESIGN"><img src="https://codik-design.vercel.app/codik-logo.png" alt="CODIK DESIGN"/><span>Design, código<br/>e <em>boas ideias.</em></span><small>FEITO A SEIS MÃOS ↗</small></a><div className="codik-detail"><small>PROJETO EM DESTAQUE · PUBLICADO</small><h3>CODIK DESIGN</h3><p>Estúdio independente de criação de sites que construo com Rodrigo e Nicolas. Juntamos design e desenvolvimento para dar presença digital aos negócios.</p><p><strong>Minha participação:</strong> criação e desenvolvimento em equipe, da ideia à apresentação do site.</p><div><span className="tag">Web design</span><span className="tag">Desenvolvimento web</span><span className="tag">Responsivo</span></div><a className="primary" href="https://codik-design.vercel.app" target="_blank" rel="noopener noreferrer">Conheça a CODIK <ArrowUpRight size={16}/></a></div></article></Fade>
 <div className="projects">{projects.map((p,i)=><Fade key={p.title}><article className="project"><small>0{i+2}</small><h3>{p.title}</h3><p>{p.desc}</p><div>{p.tech.map(t=><span className="tag" key={t}>{t}</span>)}</div><footer><a href={p.url} target="_blank" rel="noopener noreferrer"><Github size={14}/>Ver código <ArrowUpRight size={14}/></a></footer></article></Fade>)}</div></div></section>}
-function Contact(){return <section id="contato"><div className="wrap contact"><Fade><small>06 / CONTATO</small><h2>Vamos criar algo juntos?</h2><p>Estou aberto a projetos, oportunidades e conexões na área de tecnologia.</p><div className="social"><a href="https://github.com/Is-Lucas" target="_blank" rel="noopener noreferrer"><Github size={17}/>GitHub</a><a href="mailto:isaiaslucasav@gmail.com"><Mail size={17}/>E-mail</a></div></Fade><Fade><div className="contact-direct"><h3>Uma ideia ou uma oportunidade?</h3><p>Me envie um e-mail para conversarmos.</p><a className="primary" href="mailto:isaiaslucasav@gmail.com">Falar comigo <ArrowUpRight size={16}/></a><p className="email-address">isaiaslucasav@gmail.com</p><div className="business-contact"><p>Precisa de um site para sua empresa?</p><a href="https://codik-design.vercel.app/#contato" target="_blank" rel="noopener noreferrer">Converse com a CODIK <ArrowUpRight size={14}/></a></div></div></Fade></div></section>}
+function Contact(){return <section id="contato"><div className="wrap contact"><Fade><small>06 / CONTATO</small><h2>Vamos criar algo juntos?</h2><p>Estou aberto a projetos, oportunidades e conexões na área de tecnologia.</p><div className="social"><a href="https://github.com/Is-Lucas" target="_blank" rel="noopener noreferrer"><Github size={17}/>GitHub</a><a href="https://www.linkedin.com/in/isaias-correia-b15994275/" target="_blank" rel="noopener noreferrer">LinkedIn <ArrowUpRight size={17}/></a><a href="mailto:isaiaslucasav@gmail.com"><Mail size={17}/>E-mail</a></div></Fade><Fade><div className="contact-direct"><h3>Uma ideia ou uma oportunidade?</h3><p>Me envie um e-mail para conversarmos.</p><a className="primary" href="mailto:isaiaslucasav@gmail.com">Falar comigo <ArrowUpRight size={16}/></a><p className="email-address">isaiaslucasav@gmail.com</p><div className="business-contact"><p>Precisa de um site para sua empresa?</p><a href="https://codik-design.vercel.app/#contato" target="_blank" rel="noopener noreferrer">Converse com a CODIK <ArrowUpRight size={14}/></a></div></div></Fade></div></section>}
 
 
 export default function App() {
