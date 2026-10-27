@@ -6,7 +6,7 @@ Portfólio pessoal em React + Vite, com o tema escuro roxo inspirado no Gengar, 
 
 ## Projetos
 
-- **CODIK DESIGN:** projeto em equipe com Rodrigo e Nicolas — [visitar](https://codik-design.vercel.app).
+- **CODIK DESIGN:** projeto em equipe com Rodrigo e Nicolas — [visitar](https://codik.com.br).
 - CodeCraft, desafios web e estudos de SQL.
 
 ## Rodar localmente
