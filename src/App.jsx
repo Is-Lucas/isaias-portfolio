@@ -158,9 +158,9 @@ const timeline = [
   },
   {
     year: '2027',
-    title: 'Engenharia de Software',
+    title: 'Ciência da Computação',
     description:
-      'Próximo passo da formação acadêmica, com transferência de curso em andamento.',
+      'Início da graduação previsto para 2027.',
     type: 'Próximo passo',
   },
 ];
@@ -187,8 +187,8 @@ function About() {
               <div className="about-text">
                 <p>
                   Sou estudante de <strong>Desenvolvimento de Sistemas</strong>{' '}
-                  e estou em processo de transferência para iniciar{' '}
-                  <strong>Engenharia de Software</strong>.
+                  e em 2027 inicio a graduação em{' '}
+                  <strong>Ciência da Computação</strong>.
                 </p>
 
                 <p>
@@ -385,8 +385,8 @@ const items = [
   ],
   [
     Laptop,
-    'Engenharia de Software',
-    'Transferência de curso em andamento · início previsto para 2027',
+    'Ciência da Computação',
+    'Graduação · início previsto para 2027',
   ],
   [
     Rocket,
