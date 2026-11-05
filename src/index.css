@@ -121,7 +121,12 @@ nav.float a[aria-current]{background:var(--cream);color:var(--ink)}
 }
 
 section[id]{scroll-margin-top:90px}
-.pcard{isolation:isolate}.pcard img{object-fit:cover;aspect-ratio:4/5}
+.pcard{isolation:isolate;box-shadow:-14px -14px 0 #4a4a50}
+.pcard::before{display:none}
+.hi .pcard .nm{color:var(--ink)}
+.hi .pcard .ct{color:#414148;font-size:.95rem;line-height:1.6}
+.hi .pcard .ct a{color:#14225e;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+.hi .pcard .ct a:hover{color:#2448cc}.pcard img{object-fit:cover;aspect-ratio:4/5}
 .box li{flex-wrap:wrap;gap:.15rem .6rem;padding:.4rem 0}.box li span{font-size:.8rem}
 .project-wordmark{font:bold clamp(4rem,10vw,7rem)/1 var(--f);letter-spacing:-.09em}.project-wordmark span{font-size:1.2rem;vertical-align:top;letter-spacing:0}
 .tile p{font-size:1rem;line-height:1.4;margin:.5rem 0}.t1{background:linear-gradient(145deg,#7846ed,#5825cf)}
